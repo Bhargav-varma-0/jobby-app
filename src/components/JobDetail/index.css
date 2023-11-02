@@ -1,0 +1,34 @@
+.jobDetails-main {
+  background-color: black;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.padg {
+  padding: 20px;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .grid2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

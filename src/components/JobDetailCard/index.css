@@ -1,0 +1,47 @@
+.ancor {
+  text-decoration: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  width: 100%;
+}
+
+.flex-disp {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-img {
+  height: 2rem;
+}
+
+.flexstart {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.margin {
+  margin: 0px 20px;
+}
+.width-100 {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .flex-disp {
+    flex-direction: column;
+  }
+  .margin {
+    margin: 20px 0px;
+  }
+}

@@ -1,0 +1,44 @@
+.job-card {
+  margin: 20px 10px;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 15px;
+}
+.job-card h1 {
+  font-size: 18px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.compeny-logo {
+  height: 50px;
+}
+
+.disc {
+  margin-top: 10;
+}
+
+.job-hrdiv {
+  margin-left: 10px;
+}
+
+.ra-icon {
+  color: #fbbf24;
+}
+
+.space-btwn {
+  justify-content: space-between;
+}
+
+.mt {
+  margin-top: 10px;
+}
